@@ -1,0 +1,171 @@
+html{
+    font-family: 'Roboto','Open Sans', sans-serif;
+}
+
+nav{
+    justify-self: center;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+footer{
+    display: flex;
+    height: 50px;
+    justify-content: center;
+}
+
+#companyTitle{
+    font-weight: bold;
+    width: 30%;
+    margin-left: 10%;
+    align-items: center;
+    display: flex;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 0.25;
+}
+
+nav ul{
+    display: flex;
+    padding: 0;
+}
+nav ul li{
+    list-style: none;
+    margin: auto;
+    padding: 0px 5px 0px 5px;
+}
+
+.squareImage{
+    width: 100%;
+    max-height: 250px;
+    max-width: 100vw;
+    object-fit: fill;
+    margin: 0 auto;
+}
+
+.centerAll{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.imageGrid{
+    display: grid;
+    grid-template-columns: repeat(2,minmax(250px,1fr));    
+    margin: 0 auto;
+    max-width: 1200px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+@media(max-width:540px){
+    .imageGrid{
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(250px,1fr));    
+        margin: 0 auto;
+        max-width: 1200px;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    }  
+}
+
+.backgroundGrey{
+    background-color: #eee;
+}
+
+.clearList{
+    list-style: none;
+}
+
+.flexColumn{
+    flex-direction: column;
+}
+
+.centerText{
+    text-align: center;
+}
+
+#topImage{
+    background-image: url('topPic.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    z-index: 2;
+}
+
+#contact{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    min-height: 200px;
+}
+
+#description{
+    max-width: 90vw;
+}
+
+.twoColumnGrid{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+#localArea{
+    width: 80vw;
+    margin: 0 auto;
+}
+
+#wideImage{
+    background-image: url('sheffNight1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 300px;
+    width: 100%;
+}
+
+#topImage p{
+    color: white;
+    font-size: 1.2em;
+}
+
+#propertyDetails{
+    max-width: 960px;
+    margin: 0 auto;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+#propertyDetails div{
+    height: 200px;
+}
+
+#propertyDetails p{
+    text-align: justify;
+}
+
+#topBar{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    margin: 0 auto;
+    height: 10vh;
+    display: flex;
+}
+
+#googleMap{
+    width: 300px;
+    height: 300px;
+}
+
