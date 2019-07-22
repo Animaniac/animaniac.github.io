@@ -1,5 +1,5 @@
 html{
-    font-family: 'Roboto','Open Sans', sans-serif;
+    font-family: 'Open Sans', 'Roboto', sans-serif;
 }
 
 nav{
@@ -9,12 +9,17 @@ nav{
 body{
     padding: 0;
     margin: 0;
+    color: #2B3330;
 }
 
 footer{
     display: flex;
     height: 50px;
     justify-content: center;
+}
+
+blockquote{
+    font-style: italic;
 }
 
 #companyTitle{
@@ -29,6 +34,10 @@ nav{
     display: flex;
     flex-direction: row;
     flex-grow: 0.25;
+}
+
+hr{
+    margin-top: 4vh;
 }
 
 nav ul{
@@ -80,6 +89,14 @@ nav ul li{
     background-color: #eee;
 }
 
+.smallPaddingTop{
+    padding-top: 20px;
+}
+
+.paddingLeftSmall{
+    padding-left: 2vw
+}
+
 .clearList{
     list-style: none;
 }
@@ -118,11 +135,20 @@ nav ul li{
     display: flex;
     justify-content: space-around;
     flex-direction: row;
+    column-gap: 40px;
 }
 
 #localArea{
     width: 80vw;
     margin: 0 auto;
+}
+
+#localArea ul{
+    padding-left: 10px;
+}
+
+#localArea li{
+    font-size: 0.9em;
 }
 
 #wideImage{
