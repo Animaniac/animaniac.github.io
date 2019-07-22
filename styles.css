@@ -87,6 +87,9 @@ nav ul li{
     .paddingLeftSmall{
         padding-left: 0;
     }
+    #localArea li{
+        font-size: 0.9em;
+    }
 }
 
 .backgroundGrey{
@@ -124,6 +127,10 @@ nav ul li{
     z-index: 2;
 }
 
+#facilities h2{
+    margin: 5px auto;
+}
+
 #contact{
     display: flex;
     justify-content: flex-start;
@@ -149,10 +156,6 @@ nav ul li{
 
 #localArea ul{
     padding-left: 10px;
-}
-
-#localArea li{
-    font-size: 0.9em;
 }
 
 #wideImage{
