@@ -12,6 +12,9 @@ body{
     color: #2B3330;
 }
 
+h1{
+    font-size: 2.5em;
+}
 footer{
     display: flex;
     height: 50px;
@@ -53,6 +56,10 @@ nav ul li{
 
 .icon{
     font-size: 1.5em;
+}
+
+.blueText{
+    color: #03aaf0;
 }
 
 .threeColumn{
@@ -111,6 +118,13 @@ nav ul li{
     .paddingLeftSmall{
         padding-left: 0;
     }
+
+    #topImage h1{
+        width: 50%;
+        font-size: 2em;
+        color: white;
+    }
+
     #localArea li{
         font-size: 0.9em;
     }
@@ -149,6 +163,12 @@ nav ul li{
     margin: 0;
     padding: 0;
     z-index: 2;
+}
+
+#topImage h1{
+    width: 50%;
+    font-size: 2em;
+    color: white;
 }
 
 #facilities h2{
@@ -191,11 +211,6 @@ nav ul li{
     width: 100%;
 }
 
-#topImage p{
-    color: white;
-    font-size: 1.2em;
-}
-
 #propertyDetails{
     max-width: 960px;
     margin: 0 auto;
@@ -204,7 +219,7 @@ nav ul li{
 }
 
 #propertyDetails p{
-    text-align: justify;
+    text-align: center;
 }
 
 #rentText{
