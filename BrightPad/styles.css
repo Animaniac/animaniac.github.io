@@ -192,25 +192,32 @@ opacity: 0.3;
 .centerText{
     text-align: center;
 }
+
 .overLayGrid{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
+    display: flex;
+    justify-content: center;
+    align-items: center
 }
 
 .overLayGrid p{
+    transition: 300ms cubic-bezier(.25,.8,.5,1);
     color: white;
     opacity: 0;
+    text-shadow: 1px 1px 5px black;
+    pointer-events: none;
+    position: absolute;
+    will-change: opacity;
 }
 
-.overLayGrid p:hover{
+.overLayGrid:hover p{
     opacity: 1;
-    width: 100%;
-    height: 100%;
 }
-.overLayItem{
-    grid-column: 1;
-    grid-row: 1;
+.overLayGrid img{
+    transition: 300ms cubic-bezier(.25,.8,.5,1);
+    will-change: filter;
+}
+.overLayGrid img:hover{
+    filter: blur(2px);
 }
 
 .flexCenter{
