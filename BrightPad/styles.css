@@ -106,6 +106,45 @@ nav ul li{
     grid-row-gap: 10px;
 }
 
+.imageGrid div{    
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    transition: .5s ease;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+}
+
+.livingRoom{
+    background-image: url('livingroom.jpg');
+}
+
+.livingRoom:hover{
+
+}
+
+.imageGrid div:hover{
+opacity: 0.3;
+}
+
+
+.imageGrid p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    color: white
+}
+
+.imageGrid div p:hover{
+    opacity: 1;
+}
+
 @media(max-width:540px){
     .imageGrid{
         display: grid;
