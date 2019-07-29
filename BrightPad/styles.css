@@ -105,7 +105,7 @@ nav ul li{
     grid-column-gap: 10px;
     grid-row-gap: 10px;
 }
-
+/*
 .imageGrid div{    
     background-size: cover;
     width: 100%;
@@ -143,7 +143,7 @@ opacity: 0.3;
 
 .imageGrid div p:hover{
     opacity: 1;
-}
+}*/
 
 @media(max-width:540px){
     .imageGrid{
@@ -191,6 +191,32 @@ opacity: 0.3;
 
 .centerText{
     text-align: center;
+}
+.overLayGrid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+.overLayGrid p{
+    color: white;
+    opacity: 0;
+}
+
+.overLayGrid p:hover{
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+}
+.overLayItem{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.flexCenter{
+    display: flex;
+    justify-content: center;
+    align-self: center;
 }
 
 #topImage{
