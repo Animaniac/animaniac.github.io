@@ -164,6 +164,10 @@ nav ul li{
     will-change: opacity;
 }
 
+.toDoList li{
+    font-size: 1.5em;
+}
+
 .overLayGrid:hover p{
     opacity: 1;
 }
