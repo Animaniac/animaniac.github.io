@@ -29,12 +29,7 @@ blockquote{
     font-weight: bold;
     align-items: center;
     display: flex;
-}
-
-nav{
-    display: flex;
-    flex-direction: row;
-    flex-grow: 0.25;
+    margin: 10px;
 }
 
 hr{
