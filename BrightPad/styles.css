@@ -27,8 +27,6 @@ blockquote{
 
 #companyTitle{
     font-weight: bold;
-    width: 40%;
-    margin-left: 10%;
     align-items: center;
     display: flex;
 }
@@ -262,11 +260,9 @@ nav ul li{
 }
 
 #topBar{
-    width: 100%;
-    justify-content: space-between;
+    justify-content: center;
     display: flex;
     margin: 0 auto;
-    height: 10vh;
     display: flex;
 }
 
