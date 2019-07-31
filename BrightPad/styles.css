@@ -99,7 +99,7 @@ nav ul li{
     display: grid;
     grid-template-columns: repeat(2,minmax(250px,1fr));    
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 80vw;
     grid-column-gap: 10px;
     grid-row-gap: 10px;
 }
@@ -249,14 +249,14 @@ nav ul li{
 }
 
 #propertyDetails{
-    max-width: 960px;
+    max-width: 75vw;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
 }
 
 #propertyDetails p{
-    text-align: center;
+    text-align: justify;
 }
 
 #rentText{
