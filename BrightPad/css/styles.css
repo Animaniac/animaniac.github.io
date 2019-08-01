@@ -195,7 +195,7 @@ nav ul li{
 }
 
 #topImage{
-    background-image: url('topPic.jpg');
+    background-image: url('images/topPic.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -244,7 +244,7 @@ nav ul li{
 }
 
 #wideImage{
-    background-image: url('sheffNight1.jpg');
+    background-image: url('images/sheffNight1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
