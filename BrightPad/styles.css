@@ -80,6 +80,10 @@ nav ul li{
     justify-self: center;
 }
 
+.firstParagraph{
+    margin-top: 0;
+}
+
 .squareImage{
     width: 100%;
     max-height: 250px;
@@ -272,7 +276,7 @@ nav ul li{
 
 #googleMap{
     margin: 0 auto;
-    width: 300px;
+    width: 80vw;
     height: 300px;
 }
 
