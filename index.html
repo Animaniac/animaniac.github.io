@@ -6,19 +6,39 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Rhys Aislabie Development Home</title>
     <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
         .gridContainer{
             display: grid;
-            grid-template-columns: repeat(auto-fill,minmax(200px,4fr));    
+            grid-template-columns: repeat(auto-fit,minmax(150px, 1fr));
             grid-column-gap: 10px;
-            grid-row: 2;
+            grid-row-gap: 10px;
+            max-width: 90vw;
+            margin: 0 auto;
         }
         .box{
             background-color: gray;
-            height: 50px;
+            max-width: 100vw;
+            min-width: 100px;
+            min-height: 100px;
+            max-height: 200px;
+            color: white;
         }
     </style>
 </head>
 <body>
-    
+    <h1>grid messing</h1>
+    <div class="gridContainer">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+        <div class="box">7</div>
+        <div class="box">8</div>
+    </div>
 </body>
 </html>
