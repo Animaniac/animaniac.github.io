@@ -199,7 +199,7 @@ nav ul li{
 }
 
 #topImage{
-    background-image: url('/TheOldWorkshop/images/topPic.jpg');
+    background-image: url('/images/front2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -248,7 +248,7 @@ nav ul li{
 }
 
 #wideImage{
-    background-image: url('/TheOldWorkshop/images/sheffNight1.jpg');
+    background-image: url('/images/sheffNight1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -308,31 +308,31 @@ nav ul li{
 }
 
 #tav{
-    background-image: url('/TheOldWorkshop/images/bars/tav.jpg');
+    background-image: url('/images/bars/tav.jpg');
 }
 
 #champs{
-    background-image: url('/TheOldWorkshop/images/bars/champs.jpg');
+    background-image: url('/images/bars/champs.jpg');
 }
 
 #theAleClub{
-    background-image: url('/TheOldWorkshop/images/bars/theAleClub.jpg');
+    background-image: url('/images/bars/theAleClub.jpg');
 }
 
 #portlandHouse{
-    background-image: url('/TheOldWorkshop/images/bars/portlandHouse.jpg');
+    background-image: url('/images/bars/portlandHouse.jpg');
 }
 
 #honeyComb{
-    background-image: url('/TheOldWorkshop/images/bars/honeyComb.jpg');
+    background-image: url('/images/bars/honeyComb.jpg');
 }
 
 #lostAndFound{
-    background-image: url('/TheOldWorkshop/images/bars/lostAndFound.jpg');
+    background-image: url('/images/bars/lostAndFound.jpg');
 }
 
 #beerHouse{
-    background-image: url('/TheOldWorkshop/images/bars/beerHouse.jpg');
+    background-image: url('/images/bars/beerHouse.jpg');
 }
 
 .box{
