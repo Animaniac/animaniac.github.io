@@ -242,7 +242,13 @@ nav ul li{
 
     }
 
+    #RestaurantContainer{
+        direction: unset;
+    }
 
+    #Restaurants{
+        text-align: left;
+    }
 
     #topImage h1{
 
@@ -253,8 +259,6 @@ nav ul li{
         color: white;
 
     }
-
-
 
     #localArea li{
 
@@ -271,7 +275,6 @@ nav ul li{
     }
 
 }
-
 
 
 .backgroundGrey{
@@ -384,7 +387,13 @@ nav ul li{
 
 }
 
+#RestaurantContainer{
+    direction: rtl;
+}
 
+#Restaurants{
+    text-align: left;
+}
 
 .flexCenter{
 
@@ -395,7 +404,6 @@ nav ul li{
     align-self: center;
 
 }
-
 
 
 #topImage{
